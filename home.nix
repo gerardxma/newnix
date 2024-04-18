@@ -35,7 +35,9 @@
       pkgs.dotnet-sdk_8
       pkgs.mono
       pkgs.python3
-      #pkgs.pyenv
+      pkgs.pyenv
+      pkgs.procps
+      pkgs.file
       pkgs.rustup
       pkgs.go
       pkgs.temurin-bin
