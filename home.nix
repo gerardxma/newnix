@@ -25,13 +25,17 @@
       pkgs.neofetch
       pkgs.git
       pkgs.gh
-      pkgs.libgcc
-      pkgs.libgccjit
+    # pkgs.libgcc
+      pkgs.gcc
+    # pkgs.libgccjit
       pkgs.libllvm
-      pkgs.clang_18
+     # pkgs.clang_18
+      pkgs.cmake
+      pkgs.gnumake
       pkgs.dotnet-sdk_8
       pkgs.mono
-      pkgs.pyenv
+      pkgs.python3
+      #pkgs.pyenv
       pkgs.rustup
       pkgs.go
       pkgs.temurin-bin
