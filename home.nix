@@ -23,6 +23,9 @@
     # pkgs.hello
       pkgs.htop
       pkgs.neofetch
+      #pkgs.bash
+      pkgs.unetbootin
+      pkgs.gnome-multi-writer
       pkgs.git
       pkgs.gh
     # pkgs.libgcc
@@ -34,8 +37,8 @@
       pkgs.gnumake
       pkgs.dotnet-sdk_8
       pkgs.mono
-      pkgs.python3
-      pkgs.pyenv
+      #pkgs.python3
+      #pkgs.pyenv
       pkgs.procps
       pkgs.file
       pkgs.rustup
